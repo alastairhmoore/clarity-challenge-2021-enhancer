@@ -1,0 +1,6 @@
+[submodule "submodules/sap-voicebox"]
+	path = submodules/sap-voicebox
+	url = https://github.com/ImperialCollegeLondon/sap-voicebox
+[submodule "submodules/sap-elobes-utilities"]
+	path = submodules/sap-elobes-utilities
+	url = https://github.com/ImperialCollegeLondon/sap-elobes-utilities

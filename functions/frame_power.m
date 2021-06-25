@@ -1,0 +1,6 @@
+function[pow] = frame_power(Y,pm)
+
+win_scale = 1/mean(pm.win_fwd.^2);
+pow = (win_scale/pm.fs) * permute(...
+        abs(Y(1,:,:).^2 + 2*sum(abs(Y(2:end,:,:)).^2,1)),...
+        [3 2 1]); 
